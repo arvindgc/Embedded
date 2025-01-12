@@ -1,0 +1,8 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\relay2.o"
+".\delay.o"
+--strict --scatter ".\relay2.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\relay2.map" -o .\relay2.axf
