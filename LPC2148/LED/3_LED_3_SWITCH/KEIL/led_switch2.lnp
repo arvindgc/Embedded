@@ -1,0 +1,8 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\led_switch2.o"
+".\delay.o"
+--strict --scatter ".\led_switch2.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\led_switch2.map" -o .\led_switch2.axf
