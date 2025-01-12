@@ -1,0 +1,12 @@
+.\advanced_smart_living.o: advanced_smart_living.c
+.\advanced_smart_living.o: C:\Keil\ARM\Inc\Philips\lpc214x.h
+.\advanced_smart_living.o: pll.h
+.\advanced_smart_living.o: uart.h
+.\advanced_smart_living.o: delay.h
+.\advanced_smart_living.o: adc.h
+.\advanced_smart_living.o: lcd.h
+.\advanced_smart_living.o: gpio.h
+.\advanced_smart_living.o: i2c.h
+.\advanced_smart_living.o: C:\Keil\ARM\Inc\Philips\lpc213x.h
+.\advanced_smart_living.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\advanced_smart_living.o: bluetooth.h
