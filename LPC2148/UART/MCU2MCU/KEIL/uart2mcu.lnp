@@ -1,0 +1,7 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\uart_1st_mcu.o"
+--strict --scatter ".\uart2mcu.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\uart2mcu.map" -o .\uart2mcu.axf
