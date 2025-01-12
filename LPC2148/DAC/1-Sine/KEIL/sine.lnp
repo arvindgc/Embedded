@@ -1,0 +1,7 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\sine.o"
+--strict --scatter ".\sine.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\sine.map" -o .\sine.axf
