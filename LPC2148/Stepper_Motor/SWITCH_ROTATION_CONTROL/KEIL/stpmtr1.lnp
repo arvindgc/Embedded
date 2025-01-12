@@ -1,0 +1,8 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\stepper_motor1.o"
+".\delay.o"
+--strict --scatter ".\stpmtr1.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\stpmtr1.map" -o .\stpmtr1.axf
